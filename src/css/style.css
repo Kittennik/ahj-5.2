@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  display: inline-block;
+}
+
+#add {
+  margin-left: 200px;
+}
+
+table {
+  border: 1px solid #000;
+}
+
+th {
+  text-align: left;
+}
+
+#popup {
+  width: 300px;
+  border: 2px solid #000000;
+  padding: 10px 20px;
+  position: fixed;
+  background-color: #ffffff;
+}
+
+label, input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.save, .cancel {
+  margin-top: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  background: #fff;
+}
