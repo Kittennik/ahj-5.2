@@ -41,7 +41,7 @@ describe('Форма', () => {
   });
 
   test('Добавление продукта', async () => {
-    await page.type("input[name=productName]", 'ChinaPhone');
+    await page.type("input[name=productName]", 'Бабушкафон');
     await page.type("input[name=productPrice]", '100');
     const button = await page.$('.save');
     await button.click();
